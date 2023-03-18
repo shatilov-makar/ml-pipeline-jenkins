@@ -13,4 +13,4 @@ X = np.array(test)
 
 model = pickle.load(open(model_name, 'rb'))
 result = model.score(X, y)
-print(result)
+print(f"SCORE:{result}")
